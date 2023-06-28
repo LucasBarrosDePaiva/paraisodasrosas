@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=0" />
+    <title>Paraíso das Rosas</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script type="text/javascript">
+      window.onload = function () {
+        document
+          .querySelector(".menu-mobile")
+          .addEventListener("click", function () {
+            if (
+              document.querySelector(".menu nav ul").style.display == "flex"
+            ) {
+              document.querySelector(".menu nav ul").style.display = "none";
+            } else {
+              document.querySelector(".menu nav ul").style.display = "flex";
+            }
+          });
+      };
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#home"
+            ><img
+              src="assets/images/logo-paraisodasrosas.png"
+              alt="Logo Floricultura Paraíso das Rosas"
+          /></a>
+        </div>
+        <div class="menu">
+          <nav>
+            <div class="menu-mobile">
+              <div class="mm-line"></div>
+              <div class="mm-line"></div>
+              <div class="mm-line"></div>
+            </div>
+            <ul>
+              <li class="active"><a href="#home">Home</a></li>
+              <li><a href="#sobre-nos">Sobre Nós</a></li>
+              <li><a href="#buques">Buquês</a></li>
+              <li><a href="#cestas">Cestas</a></li>
+              <li><a href="#rosas">Rosas</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="banner">
+      <div class="container column">
+        <div class="banner-headline">
+          <h1>Presenteie quem você AMA!</h1>
+        </div>
+        <div class="banner-options">
+          <div class="banner1"><a href="">Read more!</a></div>
+          <div class="banner2"><a href="">Read more!</a></div>
+          <div class="banner3"><a href="">Read more!</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="general">
+      <div class="container">
+        <section>
+          <div class="widget">
+            <div class="widget-text">Latest News</div>
+            <div class="widget-title-bar"></div>
+          </div>
+          <div class="widget-body flex">
+            <article>
+              <div class="news-data">
+                <div class="news-posted-at">01 JAN 23</div>
+                <div class="news-coments">2</div>
+              </div>
+              <div class="news-thumbnail">
+                <img src="assets/images/photo1.jpg" alt="" />
+              </div>
+              <div class="news-thumbnail"><h2>Lorem</h2></div>
+            </article>
+
+            <article>
+              <div class="news-data">
+                <div class="news-posted-at">01 JAN 23</div>
+                <div class="news-coments">2</div>
+              </div>
+              <div class="news-thumbnail">
+                <img src="assets/images/photo1.jpg" alt="" />
+              </div>
+              <div class="news-thumbnail"><h2>Lorem</h2></div>
+            </article>
+          </div>
+        </section>
+        <aside>
+          <div class="widget">
+            <div class="widget-text">Departments</div>
+            <div class="widget-title-bar"></div>
+          </div>
+          <div class="widget-body"><h2>...</h2></div>
+          <div class="widget">
+            <div class="widget-text">Pictures</div>
+            <div class="widget-title-bar"></div>
+          </div>
+          <div class="widget-body"><h2>...</h2></div>
+          <div class="widget">
+            <div class="widget-text">More</div>
+            <div class="widget-title-bar"></div>
+          </div>
+          <div class="widget-body"><h2>...</h2></div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-menu">
+          <div class="fm1"></div>
+          <div class="fm2"></div>
+          <div class="fm3"></div>
+        </div>
+        <div class="footer-area">
+          <div class="area1"></div>
+          <div class="area1"></div>
+          <div class="area1"></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
